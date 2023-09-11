@@ -1,0 +1,263 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+    background-color: darkkhaki;
+}
+.wrapper{
+    width: 80%;
+	margin: 0 auto;
+}
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: purple;
+    color: white;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+header p{
+    font-size: 1.3rem;
+    margin-left: 0.4rem;
+}
+.lefthead{
+    flex-basis: 60%;
+}
+.lefthead h1{
+    padding: 0.3rem;
+    padding-left: 0.8rem;
+    margin: 0;
+    font-size: 3rem;
+}
+.lefthead p{
+    margin-top: 0.5rem;
+    padding-left: 0.8rem;
+
+}
+.righthead{
+    flex-basis: 40%;
+    margin-top: 4rem;
+}
+.aside_main{
+    background-color: purple;
+    size: 3rem;
+    margin: 3rem 0 1rem 0;
+    width: 50%;
+    margin-left: 38.5rem;
+    text-align: right;
+    border-radius: 1rem;
+}
+.aside_main h1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 1rem;
+}
+nav{
+    text-align: right;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    font-size: 1.2rem;
+    padding: 0.5rem 0.5rem;
+    color: white;
+}
+nav a:hover{
+    background-color: white;
+    color: purple;
+}
+.pic_curve_home{
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+.sec_home{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: -2rem;
+}
+.field_home{
+    margin-top: 1.5rem;
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 1rem;
+    border: none;
+    background-color: purple;
+}
+.field_home p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.leg_home{
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    display: block;
+    background-color: white;
+    color: purple;
+}
+.art_home{
+    width: 20%;
+    margin-top: 1.5rem;
+    background-color: purple;
+    text-align: center;
+    border-radius: 1rem;
+}
+.art_home h2{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0;
+    font-size: 1rem;
+    text-decoration: underline;
+    color: white;
+}
+.art_home ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+.art_home li{
+        text-decoration: none;
+        display: block;
+        font-size: 1rem;
+        padding: 0.2rem 0.5rem;
+        color: white;
+}
+.art_home a{
+    color: white;
+    text-decoration: none;
+}
+.art_home a:hover{
+    color: purple;
+    background-color: white;
+}
+.foot_home blockquote{
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 0;
+    background-color: grey;
+    color: white;
+    width: 80%;
+    border-radius: 1rem;
+}
+.foot_home p, .foot_home cite{
+    margin-left: 2rem;
+}
+.sec_skills{
+    margin-top: 0;
+    text-align: center;
+}
+.sec_skills img{
+    width: 25%;
+    margin-bottom: 1rem;
+}
+.sec_skills p{
+    float:right;
+}
+.field_skills{
+    margin-top: 1.5rem;
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 1rem;
+    border: none;
+    background-color: purple;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+.field_skills p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 0;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+.foot_skills p{
+    margin-left: 2rem;
+}
+.pic_curve{
+    border-radius: 1rem;
+    margin-right: 1rem;
+    margin-right: 3rem;
+    border: 6px solid purple; 
+}
+.sec_award{
+    width: 40%;
+    margin-top: 3.5rem;
+    background-color: purple;
+    border-radius: 1rem;
+    margin-left: 30%;
+}
+.sec_award ul{
+    padding: 0;
+    margin: 0;
+    list-style-type:circle;
+    color: white;
+    text-align: center;
+}
+.sec_award li{
+        display: block;
+        font-size: 1.3rem;
+        padding: 1rem 0.8rem;
+        color: white;
+}
+.field_exp{
+    margin-top: 1.5rem;
+    width: 100%;
+    border-radius: 1rem;
+    border: none;
+    background-color: purple;
+    margin-bottom: 3rem;
+    color: white;
+    font-size: 1.2rem;
+}
+.art_exp{
+    margin: 2rem 0;
+    width: 100%;
+    text-align: justify;
+}
+.art_exp img{
+    float: left;
+    margin: 0 1rem 1rem 0;
+    border-radius: 1rem;
+}
+.art_exp:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+h2 {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+}
+.posted {
+    font-size: 0.8rem;
+    color: white;
+    font-style: italic;
+}
