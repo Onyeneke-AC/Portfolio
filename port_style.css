@@ -14,6 +14,7 @@ body{
     width: 80%;
 	margin: 0 auto;
 }
+
 header{
     display: flex;
     flex-flow: row nowrap;
@@ -167,7 +168,7 @@ nav a:hover{
 .foot_home p, .foot_home cite{
     margin-left: 2rem;
 }
-.sec_skills{
+/*.sec_skills{
     margin-top: 0;
     text-align: center;
 }
@@ -177,9 +178,17 @@ nav a:hover{
 }
 .sec_skills p{
     float:right;
+}*/
+.swiper-slide {
+    text-align: center;
 }
+
+/*.swiper-wrapper {
+    border-radius: 1rem;
+}*/
+
 .field_skills{
-    margin-top: 1.5rem;
+    margin-top: 4.5rem;
     width: 80%;
     display: flex;
     flex-flow: row nowrap;
@@ -200,12 +209,12 @@ nav a:hover{
 .foot_skills p{
     margin-left: 2rem;
 }
-.pic_curve{
+/*.pic_curve{
     border-radius: 1rem;
     margin-right: 1rem;
     margin-right: 3rem;
-    border: 6px solid purple; 
-}
+    border: 6px solid purple;
+}*/
 .sec_award{
     width: 40%;
     margin-top: 3.5rem;
@@ -260,4 +269,10 @@ h2 {
     font-size: 0.8rem;
     color: white;
     font-style: italic;
+}
+
+img {
+    max-height: 100%;
+    width: auto;
+    border-radius: 1rem;
 }
