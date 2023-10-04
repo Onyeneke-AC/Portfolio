@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Onyeneke Anthony Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.css"/>
     <link href="port_style.css" rel="stylesheet">
 </head>
 <body>
@@ -27,17 +28,22 @@
                 Skills
             </h1>
         </aside>
-        <section class="sec_skills">
-            <img src="dialux_300x300.jpeg" alt="Onyeneke Anthony Chidubem" class="pic_curve" width="100%">
-            <img src="elect_300x300.jpeg" alt="Onyeneke Anthony Chidubem" class="pic_curve" width="100%">
-            <img src="emb_300x300.png" alt="Onyeneke Anthony Chidubem" class="pic_curve" width="100%">
-            <img src="git_300x300.jpeg" alt="Onyeneke Anthony Chidubem" class="pic_curve" width="100%">
-            <img src="html_300x300.png" alt="Onyeneke Anthony Chidubem" class="pic_curve" width="100%">
-            <img src="microsoft_pack_1_300x300.png" alt="Onyeneke Anthony Chidubem" class="pic_curve" width="100%">
-            <img src="pipe_300x300.png" alt="Onyeneke Anthony Chidubem" class="pic_curve" width="100%">
-            <img src="python_300x300.jpeg" alt="Onyeneke Anthony Chidubem" class="pic_curve" width="100%">
-            <img src="r_300x300.jpeg" alt="Onyeneke Anthony Chidubem" class="pic_curve" width="100%">
-        </section>
+        <div class="swiper-container">
+            <div class="swiper-wrapper skill_img">
+                <div class="swiper-slide"><img src="dialux_300x300.jpeg" alt="Onyeneke Anthony Chidubem" width="100%" title="DiaLux Lighting Design"></div>
+                <div class="swiper-slide"><img src="elect_300x300.jpeg" alt="Onyeneke Anthony Chidubem" width="100%" title="Electrical & Instrumentation Design"></div>
+                <div class="swiper-slide"><img src="emb_300x300.png" alt="Onyeneke Anthony Chidubem" width="100%" title="Embedded Systems"></div>
+                <div class="swiper-slide"><img src="git_300x300.jpeg" alt="Onyeneke Anthony Chidubem" width="100%" title="Git & Github"></div>
+                <div class="swiper-slide"><img src="html_300x300.png" alt="Onyeneke Anthony Chidubem" width="100%" title="HTML, CSS & Javascript"></div>
+                <div class="swiper-slide"><img src="microsoft_pack_1_300x300.png" alt="Onyeneke Anthony Chidubem" width="100%" title="Microsoft Packages"></div>
+                <div class="swiper-slide"><img src="pipe_300x300.png" alt="Onyeneke Anthony Chidubem" width="100%" title="Piping and Instrumentation Design"></div>
+                <div class="swiper-slide"><img src="python_300x300.jpeg" alt="Onyeneke Anthony Chidubem" width="100%" title="Python Programming Language"></div>
+                <div class="swiper-slide"><img src="r_300x300.jpeg" alt="Onyeneke Anthony Chidubem" width="100%" title="R Programming Language"></div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
         <footer class="foot_skills">
             <fieldset class="field_skills">
                 <legend class="leg_home">
@@ -49,5 +55,7 @@
             </fieldset>
         </footer>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.js"></script>
+    <script src="./port_js.js"></script>
 </body>
 </html>
